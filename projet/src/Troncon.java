@@ -17,21 +17,6 @@ public class Troncon {
         this.ligne = ligne;
     }
 
-    public void setDepart(String depart) {
-        this.depart = depart;
-    }
-
-    public void setArrivee(String arrivee) {
-        this.arrivee = arrivee;
-    }
-
-    public void setDuree(int duree) {
-        this.duree = duree;
-    }
-
-    public void setLigne(Ligne ligne) {
-        this.ligne = ligne;
-    }
 
     public String getDepart() {
         return depart;

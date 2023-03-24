@@ -6,7 +6,6 @@ public class Ligne {
     private  String nom;
     private String source;
     private  String destination;
-    //public static final String[] TYPE = {"metro" , "tram" , "bus"};
 
     private String type;
     private  int attenteMoyenne;
@@ -35,7 +34,7 @@ public class Ligne {
     }
 
     public String getSource() {
-        return source;
+        return this.source;
     }
 
     public String getDestination() {
@@ -46,25 +45,7 @@ public class Ligne {
         return attenteMoyenne;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
-
-    public void setSource(String source) {
-        this.source = source;
-    }
-
-    public void setDestination(String destination) {
-        this.destination = destination;
-    }
-
-    public void setAttenteMoyenne(int attenteMoyenne) {
-        this.attenteMoyenne = attenteMoyenne;
-    }
 
     @Override
     public String toString() {
@@ -73,6 +54,7 @@ public class Ligne {
                 ", nom='" + nom + '\'' +
                 ", source='" + source + '\'' +
                 ", destination='" + destination + '\'' +
+                ", type= " +type+
                 ", attenteMoyenne=" + attenteMoyenne +
                 ']';
     }
